@@ -11,11 +11,16 @@ print('You will retire in ' + str(retireYear))
 print('Don\'t forget to push to GitHub!')
 
 # creating a function???
-square()
-
-def square() -> object: int
-
-
 number1 = int(input('enter a number: '))
-squarenum = number1 * number1
-return squarenum
+
+
+def square(number1):
+    """
+
+    :type number1: int
+    """
+    return number1 * number1
+
+
+n2 = square(number1)
+print('your number was: ' + str(number1) +' and the square is: ' + str(n2))
