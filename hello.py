@@ -9,3 +9,13 @@ print('You are learning Python!')
 retireYear = year + 65
 print('You will retire in ' + str(retireYear))
 print('Don\'t forget to push to GitHub!')
+
+# creating a function???
+square()
+
+def square() -> object: int
+
+
+number1 = int(input('enter a number: '))
+squarenum = number1 * number1
+return squarenum
