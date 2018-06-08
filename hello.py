@@ -30,3 +30,6 @@ print('your number was: ' + str(number1) + ' and the square is: ' + str(n2))
 print()
 print('You are learning Python!')
 print('Don\'t forget to push to GitHub!')
+
+# this is a placeholder for the next section
+
